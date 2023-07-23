@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+      <form onsubmit="backendHandler(event)" method="post">
+        <h1>Book a Call</h1>
+        <h4>Book a Call and our representative will contact you within 1hr of selected time</h4>
+
+        <label for="name">Name:</label><br>
+        <input class = "abc" type="text" id="name" name="name" required>
+        <br>
+        <label for="email">Email:</label><br>
+        <input class = "abc" type="text" id="email" name="Email" required>
+        <br>
+        <label for="Phone no.">Phone:</label><br>
+        <input class = "abc" type="text" id="number" name="number" required>
+        <br>
+        <label for="date">Time For Call:</label><br>
+        <input class = "xyz"type="date" id="date" name="date" required>
+        <input type="time" id="time" name="time" required>
+        <br>
+        <button id = "btn" type="submit">Get a Call</button>
+    </form>
+
+    <script src = "./index.js"></script>
+</body>
+</html>
